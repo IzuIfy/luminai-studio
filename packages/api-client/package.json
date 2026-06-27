@@ -1,0 +1,1 @@
+{\n  "name": "@luminai/api-client",\n  "version": "1.0.0",\n  "description": "API client for Luminai Studio",\n  "private": true,\n  "main": "./dist/index.js",\n  "types": "./dist/index.d.ts",\n  "scripts": {\n    "build": "tsc"\n  },\n  "dependencies": {\n    "@luminai/shared": "workspace:*",\n    "axios": "^1.6.0"\n  }\n}\n"
