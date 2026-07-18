@@ -1,0 +1,64 @@
+{
+  "memory": {
+    "favorite color": "blue",
+    "name": "ada",
+    "color": "blue"
+  },
+  "notes": [
+    "i like hiking"
+  ],
+  "conversation": [
+    {
+      "role": "user",
+      "message": "hello"
+    },
+    {
+      "role": "assistant",
+      "message": "Hello! Nice to meet you."
+    },
+    {
+      "role": "user",
+      "message": "hello"
+    },
+    {
+      "role": "assistant",
+      "message": "Hello! Nice to meet you."
+    },
+    {
+      "role": "user",
+      "message": "hello"
+    },
+    {
+      "role": "assistant",
+      "message": "Hello! Nice to meet you."
+    },
+    {
+      "role": "user",
+      "message": "hello"
+    },
+    {
+      "role": "assistant",
+      "message": "Hello! Nice to meet you."
+    },
+    {
+      "role": "user",
+      "message": "hello"
+    },
+    {
+      "role": "assistant",
+      "message": "Hello! Nice to meet you."
+    },
+    {
+      "role": "user",
+      "message": "hello"
+    },
+    {
+      "role": "assistant",
+      "message": "Hello! Nice to meet you."
+    }
+  ],
+  "profile": {
+    "color": "blue"
+  },
+  "tasks": []
+}
