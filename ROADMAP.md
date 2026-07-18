@@ -1,130 +1,110 @@
-# 🗺️ Luminai Studio - Development Roadmap
+# 🗺️ Izuify Super System - Development Roadmap
 
 ## Overview
-Luminai Studio is an AI-powered creative content platform launching an MVP in less than 3 months with core image generation, video creation, and AI tools.
+This project will grow incrementally from a simple local chatbot into a personal AI operating system that can remember details, search documents, automate tasks, and eventually run continuously on a personal machine.
 
 ---
 
-## 📅 Phase 1: MVP (Weeks 1-12)
-**Goal:** Launch a functional, user-friendly platform with core features
+## Phase 1: Starter Assistant (Current)
+**Goal:** Build a small, testable chatbot that can greet users and remember simple facts.
 
-### Week 1-3: Foundation & Infrastructure
-- [ ] Project setup and architecture planning
-- [ ] Database schema design
-- [ ] User authentication system
-- [ ] File storage setup (cloud storage/CDN)
-- [ ] API framework initialization
-- [ ] Basic UI/UX framework
+### Completed
+- [x] Basic conversational shell
+- [x] Simple memory for user facts
+- [x] Command-line entry point
+- [x] Initial unit tests
 
-### Week 4-6: Core Features - Image Generation
-- [ ] Integrate AI image generation API
-- [ ] Image generation UI/UX
-- [ ] Image preview functionality
-- [ ] Image download/export
-- [ ] Image history/saved projects
-
-### Week 7-9: Core Features - Video Creation
-- [ ] Short video creation engine
-- [ ] Video editing basic tools
-- [ ] Video preview
-- [ ] Video export (MP4, WebM, etc.)
-- [ ] Video templates
-
-### Week 10-12: AI Tools & Polish
-- [ ] Text-to-Speech integration
-- [ ] Voice Cloning setup
-- [ ] Background Removal tool
-- [ ] Project management dashboard
-- [ ] User dashboard
-- [ ] Bug fixes and performance optimization
-- [ ] Beta testing and feedback
+### Next Steps
+- [ ] Add richer conversation handling
+- [ ] Support multiple remembered facts
+- [ ] Save memory to disk
+- [ ] Add a simple web UI
 
 ---
 
-## 🚀 Phase 2: Feature Expansion (Months 4-5)
-- Advanced video editing (transitions, effects, filters)
-- Batch processing
-- Stock media integration
-- Templates library expansion
-- Real-time collaboration
-- Advanced analytics
+## Phase 2: Memory and Knowledge
+**Goal:** Make the assistant more useful by storing notes, preferences, and retrieved information.
+
+- [ ] Add persistent memory storage
+- [ ] Support note-taking and reminders
+- [ ] Search local documents and markdown files
+- [ ] Organize knowledge into short-term and long-term memory
+- [ ] Add summarization for saved context
 
 ---
 
-## 🔮 Phase 3: Advanced & Pro Features (Months 6+)
-- Custom AI model fine-tuning
-- API access for developers
-- White-label solutions
-- Advanced subscription tiers
-- Payment processing
-- Premium models and tools
+## Phase 3: Tools and Workflows
+**Goal:** Let the assistant perform actions instead of only answering questions.
+
+- [ ] Add tool-calling interfaces for files and folders
+- [ ] Support simple automation scripts
+- [ ] Connect to browser or desktop actions
+- [ ] Create task planning for multi-step workflows
+- [ ] Add safe permission controls for actions
 
 ---
 
-## 📱 Phase 4: Ecosystem (Months 7+)
-- Mobile applications (iOS/Android)
-- Browser extensions
-- Plugins and integrations
-- Community marketplace
-- Developer SDK
+## Phase 4: App Control and Automation
+**Goal:** Move from a chatbot to an agent that can assist with daily work.
+
+- [ ] Control common desktop applications
+- [ ] Manage calendar, reminders, and notes
+- [ ] Automate repetitive file operations
+- [ ] Support scheduled background tasks
+- [ ] Improve reliability and observability
 
 ---
 
-## 🎯 Key Milestones
+## Phase 5: Media and Multimodal Interaction
+**Goal:** Expand beyond text into image and video generation.
 
-| Milestone | Target Date | Status |
-|-----------|------------|--------|
-| MVP Launch | Week 12 | 🔄 In Progress |
-| Phase 2 Release | Month 5 | ⏳ Planned |
-| Phase 3 Release | Month 6 | ⏳ Planned |
-| Phase 4 Release | Month 7+ | ⏳ Planned |
-
----
-
-## 📊 Feature Priority
-
-### MVP (Must Have)
-1. ✅ User Authentication
-2. ✅ Image Generation
-3. ✅ Short Video Creation
-4. ✅ Text-to-Speech
-5. ✅ Voice Cloning
-6. ✅ Background Removal
-7. ✅ Project Management
-8. ✅ Export Functionality
-
-### Phase 2 (Should Have)
-- Advanced video editing
-- Batch processing
-- Stock media library
-- Templates
-- Basic collaboration
-
-### Phase 3+ (Nice to Have)
-- API access
-- Custom models
-- White-label options
-- Mobile apps
-- Advanced analytics
+- [ ] Add image generation support
+- [ ] Add short video generation support
+- [ ] Support voice and speech input/output
+- [ ] Improve multimodal memory and context
+- [ ] Build richer user interfaces
 
 ---
 
-## 🛠️ Technology Stack (To Be Defined)
+## Phase 6: Continuous Personal OS
+**Goal:** Run the assistant as a persistent background system on a personal machine.
 
-- **Frontend:** [React/Vue/Svelte]
-- **Backend:** [Node.js/Python/Go]
-- **Database:** [PostgreSQL/MongoDB]
-- **AI APIs:** [OpenAI DALL-E/Midjourney/Stable Diffusion]
-- **Video Processing:** [FFmpeg/HLS]
-- **Storage:** [AWS S3/Google Cloud Storage]
-- **Authentication:** [JWT/OAuth]
+- [ ] Run as a background service
+- [ ] Add event-driven triggers and reminders
+- [ ] Improve privacy and local-first architecture
+- [ ] Support plugin-based capabilities
+- [ ] Keep the system modular and extendable
 
 ---
 
-## 📝 Notes
+## Milestones
 
-- Focus on MVP quality over quantity
-- User feedback is critical during beta phase
-- Plan for scalability from day one
-- Document API design early
-- Regular team sync-ups every 2 weeks
+| Milestone | Status |
+|-----------|--------|
+| Starter chatbot | ✅ Complete |
+| Persistent memory | ⏳ Planned |
+| Tool-based workflows | ⏳ Planned |
+| Desktop automation | ⏳ Planned |
+| Media generation | ⏳ Planned |
+| Continuous personal OS | ⏳ Planned |
+
+---
+
+## Recommended Stack
+
+- **Language:** Python
+- **Core logic:** local-first agent loop and tool system
+- **Memory:** JSON, SQLite, or lightweight vector storage
+- **Search:** local file indexing and semantic search
+- **Automation:** Python scripts and OS integrations
+- **UI options:** CLI first, then web or desktop shell
+
+---
+
+## Development Principles
+
+- Start small and keep each step testable
+- Prefer local-first and privacy-aware design
+- Build one capability at a time
+- Use clear interfaces between memory, planning, and tools
+- Keep the system easy to extend as it grows

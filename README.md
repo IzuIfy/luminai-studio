@@ -1,54 +1,68 @@
-# 🎨 Luminai Studio
+# 🤖 Izuify Super System
 
-**AI-powered platform for generating images, videos, and creative content**
+**A personal AI operating system that grows from a simple chatbot into a capable daily assistant.**
 
-An all-in-one creative studio powered by artificial intelligence, enabling creators to generate stunning visuals, videos, and multimedia content with ease.
+This project starts with a lightweight conversational agent and then adds memory, document search, workflow automation, app control, and eventually media generation over time.
 
-## ✨ Features
+## ✨ Vision
 
-### Phase 1: MVP (Target: < 3 months)
-- 🖼️ **Image Generation** - AI-powered image creation with multiple models
-- 🎬 **Short Video Creation** - Generate and edit short-form videos
-- 🗣️ **Text-to-Speech** - Convert text to natural-sounding audio
-- 🎤 **Voice Cloning** - Clone and customize voices
-- ✂️ **Background Removal** - Remove and replace backgrounds intelligently
-- 👤 **User Authentication** - Secure account management
-- 💾 **Project Management** - Save, organize, and manage creations
-- 📤 **Export** - Download in multiple formats
+Build an assistant that can:
+- chat naturally
+- remember useful information
+- search local documents and notes
+- automate recurring workflows
+- control desktop applications
+- generate images and videos
+- run continuously on a personal machine
 
-### Future Phases
-- Advanced video editing with transitions and effects
-- Batch processing capabilities
-- API access for developers
-- Subscription tiers and payments
-- Mobile applications
-- Collaboration features
-- And more...
+## 🧱 Phase 1: Foundation
+- a simple chatbot with basic conversation
+- memory for a few user facts
+- a command-line interface
+- tests for core behavior
+
+## 🔄 Phase 2: Memory and Tools
+- long-term memory for notes and preferences
+- document search over local files
+- tool calling for simple commands
+- structured task planning
+
+## 🧠 Phase 3: Automation and Control
+- browser and app automation
+- calendar, email, and file workflow actions
+- agent-based planning for multi-step tasks
+
+## 🎨 Phase 4: Media and Autonomy
+- image generation
+- video generation
+- richer multimodal interaction
+- continuous background operation
 
 ## 🚀 Quick Start
 
-(Setup instructions to be added)
+Run the starter assistant:
+
+```bash
+python -m ai_os.cli
+```
 
 ## 📋 Roadmap
 
-See [ROADMAP.md](./ROADMAP.md) for detailed development phases and timeline.
+See [ROADMAP.md](./ROADMAP.md) for the detailed development phases and timeline.
 
 ## 📁 Project Structure
 
-```
-luminai-studio/
-├── docs/              # Documentation
-├── src/               # Source code
-│   ├── api/           # Backend API
-│   ├── ui/            # Frontend
-│   └── services/      # AI services
-├── tests/             # Test files
-└── README.md          # This file
+```text
+izuify-super-system/
+├── src/ai_os/         # Core assistant package
+├── tests/             # Regression tests
+├── README.md          # Project overview
+└── ROADMAP.md         # Development plan
 ```
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+Contributions are welcome. Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ## 📝 License
 
@@ -56,5 +70,5 @@ MIT License - See LICENSE file for details
 
 ---
 
-**Current Status:** 🎯 MVP Development (Phase 1)
-**Target Launch:** < 3 months
+**Current Status:** 🧪 Starter chatbot in place
+**Next Goal:** Add memory, tools, and planning layers
